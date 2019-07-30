@@ -80,12 +80,29 @@ $db_persist = FALSE;
 
 //$auth["type"] = "none";
 
-$auth["admin"][] = "admin";
+$auth["admin"][] = "supawat.n";
 
 $auth["session"] = "php";
 
-$auth["type"] = "config";
+//$auth["type"] = "config";
 
-$auth["user"]["admin"] = "thisisabook";
+//$auth["user"]["admin"] = "thisisabook";
 
-$auth["user"]["user"] = "user";
+//$auth["user"]["user"] = "user";
+
+
+
+# 'auth_ldap' configuration settings
+# Where is the LDAP server
+$ldap_host = "ldap.pttdigital.corp";
+# If you have a non-standard LDAP port, you can define it here
+#$ldap_port = 389;
+# If you want to use LDAP v3, change the following to true
+$ldap_v3 = false;
+# If you want to use TLS, change following to true
+$ldap_tls = false;
+# LDAP base distinguish name
+# See AUTHENTICATION for details of how check against multiple base dn's
+$ldap_base_dn = "dc=pttdigital,dc=corp";
+# Attribute within the base dn that contains the username
+$ldap_user_attrib = "uid";
