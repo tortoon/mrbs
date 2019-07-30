@@ -51,7 +51,7 @@ $dbsys = "mysql";
 $db_host = "mysql.supawat.svc";
 // If you need to use a non standard port for the database connection you
 // can uncomment the following line and specify the port number
-// $db_port = 1234;
+$db_port = 3306;
 // Database name:
 $db_database = "mrbs";
 // Schema name.  This only applies to PostgreSQL and is only necessary if you have more
