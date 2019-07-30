@@ -78,4 +78,12 @@ $db_persist = FALSE;
    to change the default configuration. Do _NOT_ modify systemdefaults.inc.php
    or areadefaults.inc.php.  */
 
-$auth["type"] = "none";
+//$auth["type"] = "none";
+
+$auth["admin"][] = "admin";
+
+$auth["session"] = "php";
+
+$auth["type"] = "config";
+
+$auth["user"]["USERNAME"] = "thisisabook";
