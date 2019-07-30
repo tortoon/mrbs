@@ -87,3 +87,5 @@ $auth["session"] = "php";
 $auth["type"] = "config";
 
 $auth["user"]["admin"] = "thisisabook";
+
+$auth["user"]["user"] = "user";
