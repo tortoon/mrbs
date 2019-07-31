@@ -87,4 +87,4 @@ $auth["user"]["admin"] = "thisisabook";
 $auth["user"]["user"] = "user";
 
 $mrbs_company = "PTT DIGITAL DEMO ROOM";
-$default_view = "week";
+$default_view = "month";
